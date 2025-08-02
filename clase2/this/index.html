@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio con 'this'</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            padding-top: 20px;
+            background-color: #f7f7f7;
+        }
+
+        .caja {
+            width: 200px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            text-align: center;
+            background-color: #f0f0f0;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .caja:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Ejemplo con 'this'</h2>
+    <p>Pasa el mouse sobre las cajas para ver el efecto.</p>
+
+    <div class="caja">Pasa el mouse sobre mí</div>
+    <div class="caja">Pasa el mouse sobre mí</div>
+    <div class="caja">Pasa el mouse sobre mí</div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
